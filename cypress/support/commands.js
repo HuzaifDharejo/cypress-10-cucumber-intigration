@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+before("Going to Url",function(){
+    cy.visit('/');
+
+})
+
+after(("Going to Url",function(){
+    cy.log('Thanks');
+
+}))

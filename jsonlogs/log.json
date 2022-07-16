@@ -1,0 +1,155 @@
+[
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "multipleproductsorder;placing-order-of-random-products-with-quantity-of-5",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Placing Order of random Products with Quantity of 5",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User places random Products with Quantity of 5",
+            "result": {
+              "duration": 1680000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should see thankyou page",
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "multipleproductsorder",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "MultipleProductsOrder",
+    "uri": "cypress\\e2e\\features\\MultipleProductsOrder.feature"
+  },
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User should be on product listing page",
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "multiplequantity;placing-order-of-random-products-with-quantity-of-5",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Placing Order of random Products with Quantity of 5",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "User places order of product with Quantity of 5",
+            "result": {
+              "duration": 1784000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should see thankyou page",
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "multiplequantity",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "MultipleQuantity",
+    "uri": "cypress\\e2e\\features\\MultipleQuantity.feature"
+  },
+  {
+    "description": "Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "singleorder;placing-order-of-random-products",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Placing Order of random Products",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User places order of product",
+            "result": {
+              "duration": 1488000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should see thankyou page",
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "singleorder",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "SingleOrder",
+    "uri": "cypress\\e2e\\features\\SingleOrder.feature"
+  }
+]
